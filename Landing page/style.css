@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background:black;
+    background-image: url('wall.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    padding: 10px 70px;
+    color:yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 5px white ;
+}
+.logo{
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    font-size: 4em;
+    letter-spacing: 1px;
+}
+.logo span{
+    color: red;
+}
+
+.menu a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    size: 2em;
+    letter-spacing: 2px;
+}
+.menu a:last-child{
+    background: brown;
+    color:white;
+    border-radius: 8px;
+
+}
+.H-text{
+    position: absolute;
+    top:22%;
+    left: 5%;
+    padding: 15px;
+
+}
+.H-text p{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:orange;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: oblique;
+}
+.H-text h1{
+    font-size: 4em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color:orangered;
+}
+.H-text h2{
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    color:orange;
+}
+.H-text h2 span{
+    color: orange;
+}
+#order{
+    text-decoration: none;
+    color: white;
+    background: brown;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-size: 1em;
+}
+#dis{
+    text-decoration: none;
+    color: white;
+    background:black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1em;
+}
+#pizza{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+}
+#pizza img{
+    transition: 0.4s ease;
+}
+#pizza img:hover{
+    transform: translateY(-20px);
+}
